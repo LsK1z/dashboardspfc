@@ -29,7 +29,7 @@ class Dashboardspfc extends StatelessWidget {
                     ),
                   ),
                 ),
-                const Text('Fundado em 1930',style: TextStyle(color: Colors.black,
+                const Text('Fundado em 1930',style: TextStyle(color: Colors.white,
                 fontWeight: FontWeight.bold,
                 fontStyle: FontStyle.italic
                   ),
@@ -63,6 +63,7 @@ class Dashboardspfc extends StatelessWidget {
           'O clube é reconhecido por sua tradição de revelar talentos e adotar um estilo de jogo envolvente e ofensivo. O estádio do São Paulo é o lendário Morumbi, que é um dos maiores e mais icônicos estádios do Brasil.\n'
           'No cenário internacional, o São Paulo é reconhecido como um dos maiores clubes brasileiros, sendo o único clube do país a conquistar três vezes o Mundial de Clubes da FIFA.\n'
           '\nPRINCIPAIS TITULOS:\n6x campeão Brasileiro\n3x campeão da Libertadores\n3x campeão doMundial de Clubes',
+          style: TextStyle(color: Colors.white),
       softWrap: true,
       textAlign: TextAlign.justify, // Justifica o texto
     ),
@@ -75,7 +76,7 @@ class Dashboardspfc extends StatelessWidget {
         body: Container(
           decoration: const BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('assets/background.png'),
+              image: AssetImage('assets/backgroundsp.png'),
               fit: BoxFit.cover,
           ),
           ),
@@ -110,7 +111,7 @@ class Dashboardspfc extends StatelessWidget {
             style: const TextStyle(
               fontSize: 14,
               fontWeight: FontWeight.w400,
-              color: Colors.black,
+              color: Colors.white,
             ),
           ),
         ),
