@@ -62,7 +62,7 @@ class Dashboardspfc extends StatelessWidget {
           'o clube ostenta uma gloriosa história e uma base sólida de torcedores. Ao longo dos anos, o São Paulo conquistou inúmeros títulos, incluindo seis campeonatos brasileiros e  três títulos da Copa Libertadores.\n'
           'O clube é reconhecido por sua tradição de revelar talentos e adotar um estilo de jogo envolvente e ofensivo. O estádio do São Paulo é o lendário Morumbi, que é um dos maiores e mais icônicos estádios do Brasil.\n'
           'No cenário internacional, o São Paulo é reconhecido como um dos maiores clubes brasileiros, sendo o único clube do país a conquistar três vezes o Mundial de Clubes da FIFA.\n'
-          '\nPRINCIPAIS TITULOS:\n6x campeão Brasileiro\n3x campeão da Libertadores\n3x campeão do Mundial de Clubes',
+          '\nPRINCIPAIS TITULOS:\n6x campeão Brasileiro\n3x campeão da Libertadores\n3x campeão doMundial de Clubes',
       softWrap: true,
       textAlign: TextAlign.justify, // Justifica o texto
     ),
@@ -75,14 +75,14 @@ class Dashboardspfc extends StatelessWidget {
         body: Container(
           decoration: const BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('assets/fundospfc.png'),
+              image: AssetImage('assets/background.png'),
               fit: BoxFit.cover,
           ),
           ),
          child: ListView(
           children: [
             Image.asset(
-              'assets/headsp.png',
+              'assets/head.png',
               width: 1920,
               height: 300,
               fit: BoxFit.none,

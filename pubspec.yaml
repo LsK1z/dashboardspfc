@@ -19,7 +19,6 @@ flutter:
   uses-material-design: true
   
   assets:
-    - assets/headsp2.png
-    - assets/fundospfc.png
-    - assets/fundo2spfc.png
-    - assets/headsp.png
+    - assets/head.png
+    - assets/background.png
+    - assets/backgroundsp.png
